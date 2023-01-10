@@ -16,4 +16,5 @@ for i in d:
     res.append(i)
 
 res.sort()
+
 print(res[0])
