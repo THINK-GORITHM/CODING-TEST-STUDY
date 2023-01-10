@@ -8,7 +8,7 @@ q=[]
 for _ in range(n):
   m=int(sys.stdin.readline())
   if m !=0:
-    # heap을 tuple로 구성했을 때 맨 앞 숫자만으로 정렬을 하므로 절댓값 정렬이 가능
+    # heap을 tuple로 구성했을 때 맨 앞 숫자만으로 정렬을 함
     hq.heappush(q, (abs(m),m))
   else:
     if len(q)==0:
