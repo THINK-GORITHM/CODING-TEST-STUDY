@@ -2,13 +2,23 @@
 arr = [10, 11, 12, 13]
 arr[2] = 5 # [10, 11, 5, 13]
 
-# 백터 
+# 벡터 
 v = []
 v.append((123, 456))
 v.append((789, 987))
-print("stack size:",len(v))
+print("vector stack size:",len(v))
 for p in v:
     print(p)
+    
+# 스택
+s = []
+s.append(123)
+s.append(456)
+s.append(789)
+print("stack size:",len(s)) # 3
+while (len(s) > 0):
+    print(s[-1]) # 789 456 123 
+    s.pop(-1)
     
 # 큐
 from collections import deque
