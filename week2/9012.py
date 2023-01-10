@@ -1,5 +1,4 @@
 import sys
-from tkinter.messagebox import YESNOCANCEL
 n=int(sys.stdin.readline())
 
 for _ in range(n):
@@ -15,6 +14,8 @@ for _ in range(n):
       else:
         isVPS=False
         break
-  if s: isVPS=False
 
-  print('YES' isVPS else 'NO')
+  if s: 
+    isVPS=False
+
+  print('YES' if isVPS else 'NO')
