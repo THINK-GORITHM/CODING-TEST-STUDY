@@ -10,4 +10,5 @@ for i in range(card):
 while len(dq) > 1:
     dq.pop()
     dq.rotate(1)
+
 print(dq.pop())

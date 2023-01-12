@@ -3,6 +3,7 @@ T = int(input())
 for p in range(T):
     s = []
     isVPS = True
+
     for a in input():
         if a == '(':
             s.append(a)

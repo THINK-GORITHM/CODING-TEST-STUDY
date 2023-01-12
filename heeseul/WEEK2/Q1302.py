@@ -1,15 +1,15 @@
-d = dict()
+dic = dict()
 
 for _ in range(int(input())):
     book = input()
-    if book in d:
-        d[book] += 1
+    if book in dic:
+        dic[book] += 1
     else:
-        d[book] = 1
+        dic[book] = 1
 
-m = max(d.values())
+m = max(dic.values())
 c = []
-for k, v in d.items():
+for k, v in dic.items():
     if v == m:
         c.append(k)
 c.sort()
