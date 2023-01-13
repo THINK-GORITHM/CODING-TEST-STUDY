@@ -1,6 +1,7 @@
 import sys
 
 s = []
+
 for _ in range(int(sys.stdin.readline())):
     order = sys.stdin.readline().split()
     if order[0] == "push":

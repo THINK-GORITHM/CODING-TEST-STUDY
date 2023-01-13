@@ -3,7 +3,6 @@ T = int(input())
 for p in range(T):
     s = []
     isVPS = True
-
     for a in input():
         if a == '(':
             s.append(a)
@@ -13,7 +12,6 @@ for p in range(T):
             else:
                 isVPS = False
                 break
-
     if len(s) > 0:
         isVPS = False;
 

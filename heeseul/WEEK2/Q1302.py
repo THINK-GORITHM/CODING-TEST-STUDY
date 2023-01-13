@@ -2,6 +2,7 @@ dic = dict()
 
 for _ in range(int(input())):
     book = input()
+
     if book in dic:
         dic[book] += 1
     else:

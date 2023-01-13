@@ -3,7 +3,6 @@ import sys
 
 input = sys.stdin.readline
 pq = []
-
 for _ in range(int(input())):
     x = int(input())
     if x: #x가 0이 아닐 때
