@@ -13,3 +13,4 @@ n = int(input())
 for _ in range(n):
     answer = input()
     print(stack(list(answer)))
+    
