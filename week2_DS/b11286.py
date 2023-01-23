@@ -1,5 +1,4 @@
 # 백준 11286 절댓값 힙
-
 import heapq
 import sys # 시간초과로 인한 빠른 입력 
 
