@@ -18,7 +18,7 @@ public class b_2164 {
         int first_index = 1;
         int last_index = N;
 
-        while(N --> 1){
+        while(N-- > 1){
             first_index++;
             q[last_index + 1] = q[first_index];
             last_index++;

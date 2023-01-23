@@ -50,7 +50,7 @@ public class b_10828 {
 
         stack = new int[N];
 
-        while(N --> 0){
+        while(N-- > 0){
             st = new StringTokenizer(br.readLine(), " ");
 
             switch (st.nextToken()){

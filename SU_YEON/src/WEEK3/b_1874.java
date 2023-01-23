@@ -15,7 +15,7 @@ public class b_1874 {
         int idx = 0;
         int start = 0;
 
-        while(N --> 0){
+        while(N-- > 0){
             int value = Integer.parseInt(br.readLine());
 
             if(value > start){
