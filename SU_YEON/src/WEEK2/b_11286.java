@@ -29,7 +29,7 @@ public class b_11286 {
             }
         });
 
-        while(N --> 0){
+        while(N-- > 0){
             int num = Integer.parseInt(br.readLine());
 
             if(num != 0){
