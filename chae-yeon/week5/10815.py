@@ -1,6 +1,7 @@
-# import sys
+import sys
 
-# sys.setrecursionlimit(10**6)
+sys.setrecursionlimit(10**6)
+input = sys.stdin.readline
 N, M = map(int, input().split())
 adj = [[0]*N for _ in range(N)]
 # 인접 행렬에 그래프 정보 넣기
